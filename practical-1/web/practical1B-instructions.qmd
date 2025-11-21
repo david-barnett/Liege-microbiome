@@ -1,6 +1,6 @@
 ---
 title: "Practical 1B - microbiota data"
-subtitle: "2024 Liege microbiome workshop"
+subtitle: "Liege microbiome workshop"
 author: David Barnett
 date: last-modified
 format: html
@@ -18,7 +18,7 @@ toc-depth: 4
 toc-expand: 1
 other-links:
   - text: "Workshop Overview"
-    href: "https://david-barnett.github.io/2024-Liege-microbiome"
+    href: "https://david-barnett.github.io/Liege-microbiome"
     icon: "house"
     target: "_blank"
   - text: "posit.cloud workspace"
@@ -642,7 +642,7 @@ saveRDS(ps_alpha, file = here("data", "papa2012", "processed", "backup", "papa12
 -   Its time to stop exploring and take a break.
 -   In the next lecture you will learn more about the main approaches for microbiota data analysis.
 -   In the next practical session, we will come back to these data with a plan, an analysis plan!
--   Click here: <https://david-barnett.github.io/2024-Liege-microbiome/practical-2/web/practical2-instructions.html>
+-   Click here: <https://david-barnett.github.io/Liege-microbiome/practical-2/web/practical2-instructions.html>
 
 ## Session info
 

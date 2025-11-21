@@ -1,6 +1,6 @@
 ---
 title: "Practical 2 - microbiota analyses"
-subtitle: "2024 Liege microbiome workshop"
+subtitle: "Liege microbiome workshop"
 author: David Barnett
 date: last-modified
 format: html
@@ -18,7 +18,7 @@ toc-depth: 4
 toc-expand: 1
 other-links:
   - text: "Workshop Overview"
-    href: "https://david-barnett.github.io/2024-Liege-microbiome"
+    href: "https://david-barnett.github.io/Liege-microbiome"
     icon: "house"
     target: "_blank"
   - text: "posit.cloud workspace"

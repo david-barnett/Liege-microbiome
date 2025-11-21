@@ -1,6 +1,6 @@
 ---
 title: "Practical 2 - microbiota analyses"
-subtitle: "2024 Liege microbiome workshop"
+subtitle: "Liege microbiome workshop"
 author: YOUR-NAME
 date: last-modified
 keep-md: false
@@ -13,7 +13,7 @@ toc: true
 ## Instructions for practical 2
 
 Follow the instructions online at:\
-[david-barnett.github.io/2024-Liege-microbiome/practical-2/web/practical2-instructions.html](https://david-barnett.github.io/2024-Liege-microbiome/practical-2/web/practical2-instructions.html)
+[david-barnett.github.io/Liege-microbiome/practical-2/web/practical2-instructions.html](https://david-barnett.github.io/Liege-microbiome/practical-2/web/practical2-instructions.html)
 
 For practical 2, you will need to fill out this notebook by copying and modifying the instruction material.
 
