@@ -37,7 +37,7 @@ code-fold: false
 code-link: true
 lightbox: auto
 link-external-icon: true
-cache: true
+cache: false
 ---
 
 ## Intro to Practical 2

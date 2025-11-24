@@ -37,7 +37,7 @@ code-fold: false
 code-link: true
 lightbox: auto
 link-external-icon: true
-cache: true
+cache: false
 ---
 
 ## Introduction 👋
@@ -333,7 +333,7 @@ plot_practice_bars <- ggplot(meta) +
   theme_bw()
 
 # create a folder for figures
-dir.create(here("practical-1/figs"))
+dir.create(here("practical-1/figs"), showWarnings = FALSE)
 
 # Write the plot to a file, with ggsave
 ggsave(
@@ -682,7 +682,7 @@ First, we'll create the "processed" directory.
 
 ```{r}
 output_path <- here("data", "papa2012", "processed")
-dir.create(output_path)
+dir.create(output_path, showWarnings = FALSE)
 ```
 
 Then we write an excel file, using the `write_xlsx` function from the `writexl` package.
@@ -706,7 +706,7 @@ saveRDS(all_meta, here(output_path, "all_metadata.rds"))
 ```{r}
 #| include: false
 # these files can be used if participants fail to replicate processing
-dir.create(here(output_path, "backup"))
+dir.create(here(output_path, "backup"), showWarnings = FALSE)
 write_csv(all_meta, here(output_path, "backup", "all_metadata.csv"))
 write_xlsx(all_meta, here(output_path, "backup", "all_metadata.xlsx"))
 saveRDS(all_meta, file = here(output_path, "backup", "all_metadata.rds"))
